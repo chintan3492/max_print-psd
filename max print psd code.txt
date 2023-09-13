@@ -1,0 +1,157 @@
+HTML CODE 
+
+<!-- PROMOTION PRODUCTS -->
+    <div class="main-products">
+        <div class="container">
+            <div class="product">
+                <h2>promotion products</h2>
+                <div class="prism">
+                    <img src="./img/prism-image.png" alt="prism">
+                </div>
+                <div class="grey-cards">
+                    <div class="grey-card">
+                        <img src="./img/grey-card.png" alt="grey-card">
+                        <div class="pink-hover">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>45 viwers</p>
+                            <a href="#">add to cart</a>
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <h5>post card</h5>
+                        <a href="#">$49</a>
+                    </div>
+                    <div class="grey-card">
+                        <img src="./img/grey-card.png" alt="grey-card">
+                        <div class="pink-hover">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>45 viwers</p>
+                            <a href="#">add to cart</a>
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <h5>business card</h5>
+                        <a href="#">$129</a>
+                    </div>
+                    <div class="grey-card">
+                        <img src="./img/grey-card.png" alt="grey-card">
+                        <div class="pink-hover">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>45 viwers</p>
+                            <a href="#">add to cart</a>
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <h5>post card</h5>
+                        <a href="#">$79</a>
+                    </div>
+                    <div class="grey-card">
+                        <img src="./img/grey-card.png" alt="grey-card">
+                        <div class="pink-hover">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>45 viwers</p>
+                            <a href="#">add to cart</a>
+                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <h5>business card</h5>
+                        <a href="#">$159</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+CSS CODE
+ /* PROMOTION PRODUCTS */
+  .main-products {
+      background-color: #f9f9f9;
+  }
+
+  .product h2 {
+      text-align: center;
+      padding-top: 145px;
+      font-family: 'Roboto Slab', serif;
+      font-weight: 700;
+      font-size: 32px;
+      text-transform: uppercase;
+  }
+
+  .grey-cards {
+      display: flex;
+      gap: 50px;
+      padding-top: 61px;
+
+  }
+
+  .grey-card:hover .pink-hover {
+      display: block;
+  }
+
+  .grey-card {
+      text-align: center;
+      position: relative;
+  }
+
+  .grey-card h5 {
+      font-size: 16px;
+      font-family: 'Roboto Slab', serif;
+      font-weight: 400;
+  }
+
+  .grey-card a {
+      color: #f65aa7;
+      font-size: 16px;
+      text-decoration: none;
+  }
+
+  .grey-card img {
+      width: 270px;
+      height: 300px;
+  }
+
+  .pink-hover {
+      display: none;
+      position: absolute;
+      top: 0;
+      width: 270px;
+      height: 300px;
+      background-color: #f662ab;
+  }
+
+  .pink-hover .fa-star {
+      color: #fbc725;
+      padding-top: 95px;
+      font-size: 30px;
+  }
+
+  .pink-hover p {
+      color: #ffff;
+      padding: 19px;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+  }
+
+  .pink-hover a {
+      padding: 16px 17px;
+      background-color: #ffff;
+      display: inline-block;
+      text-decoration: none;
+      color: #232323;
+      border-radius: 10px;
+      text-transform: uppercase;
+  }
+
