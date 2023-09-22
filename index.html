@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/ecbbcdb4a2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>MAX-print shop</title>
 </head>
 
@@ -76,7 +78,31 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- MOB-NAV -->
+            <div class="container">
+                <div class="mob-view">
+                    <div class="mob-logo">
+                        <a href="#"><img src="./img/max-logo.png" alt="MAX-shop"></a>
+                    </div>
+                    <div class="mobile-bars">
+                        <a href="javascript:void(0)" id="mobile-bars"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                    <!-- MOB-CART-ICON -->
+                    <div class="mob-shop-icon">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <ul class="mob-menu-list">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">aboutus</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">businesscards</a></li>
+                    <li><a href="#">postcards</a></li>
+                    <li><a href="#">pages</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </div>
     </header>
     <!-- SLIDER -->
     <div class="sleek-slider">
@@ -267,6 +293,10 @@
             $('.sleek-slider').slick({
                 prevArrow: '<i class="fa-solid fa-arrow-left"></i>',
                 nextArrow: '<i class="fa-solid fa-arrow-right"></i>'
+            });
+            // MOB-BAR-LIST
+            $(".mobile-bars").click(function () {
+                $(".mob-menu-list").slideToggle("slow");
             });
 
 
