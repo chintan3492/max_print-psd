@@ -33,6 +33,8 @@
   .black-left {
       display: flex;
       flex-direction: column;
+      /* border-bottom: 1px solid #ffff; */
+
   }
 
   .black-box {
@@ -45,6 +47,15 @@
       font-family: 'Roboto Slab', serif;
       font-weight: 400;
       font-size: 13px;
+  }
+
+  .telephone-icon,
+  .time-icon,
+  .mail-icon {
+      border-bottom: 1px solid #fff;
+      width: 100%;
+      padding: 3px 0px;
+
   }
 
   .telephone-icon a {
@@ -71,8 +82,13 @@
       text-decoration: none;
   }
 
-  .telephone-icon a img {
+  .telephone-icon img {
       padding-right: 12px;
+
+  }
+
+  .telephone-icon a img {
+      padding-left: 13px;
   }
 
   .time-icon img {
@@ -91,7 +107,8 @@
   .media-icon {
       align-items: center;
       display: flex;
-      gap: 20px;
+      gap: 50px;
+      padding-top: 3px;
   }
 
   .fa-brands:hover {
@@ -103,12 +120,18 @@
 
   /* NAVBAR */
   .navigation {
-      padding: 30px 0px;
+      padding: 3px 0px;
       /* width: 100%; */
   }
 
   .logo img {
       display: none;
+
+  }
+
+  .mob-logo img {
+      width: 50%;
+
   }
 
 
@@ -205,6 +228,7 @@
       font-weight: 700;
       font-size: 25px;
       padding-bottom: 10px;
+      text-align: center;
   }
 
   .second {
@@ -227,6 +251,7 @@
       color: #ffff;
       text-transform: capitalize;
       padding-bottom: 47px;
+      text-align: center;
   }
 
   .mob-aboutus {
