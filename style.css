@@ -157,13 +157,14 @@
   }
 
   .mob-menu-list {
-      /* display: flex; */
+      display: flex;
       flex-direction: column;
       text-align: center;
       display: none;
-      /* position: absolute; */
       background-color: #232323;
       opacity: 0.9;
+      /* position: absolute; */
+
   }
 
   .mob-menu-list li {
@@ -206,20 +207,24 @@
       display: none;
   }
 
+
   /* slider-1 */
   .slider-main {
       padding: 100px 0px 100px 0px;
 
   }
 
+
   .slider {
       text-align: center;
   }
 
   .mob-slider-main {
+      /* position: relative; */
       background-image: url(./img/low-poly-abstract-background_559319-136.avif);
       background-size: 100% 100%;
       background-repeat: no-repeat;
+
   }
 
   .mob-slider h2 {
@@ -296,17 +301,7 @@
       background-color: #f65aa7;
   }
 
-  /* .ourworks {
-      display: none;
-  } */
-
-
-
-
   /* SLIDER-2 */
-  /* .offer {
-      padding: 260px 780px 306px 472px;
-  } */
 
   .mob-offer h2 {
       font-size: 25px;
