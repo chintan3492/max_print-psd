@@ -30,6 +30,14 @@
   }
 
   /* BLACK-LEFT */
+  .black-box {
+      display: none;
+  }
+
+  .black-right {
+      display: none;
+  }
+
   .mob-black-left {
       display: flex;
       flex-direction: column;
@@ -130,7 +138,7 @@
   }
 
   .mob-logo img {
-      width: 50%;
+      width: 60%;
 
   }
 
@@ -169,6 +177,8 @@
   }
 
   .mob-menu-list li {
+      border-bottom: 1px solid #fff;
+      padding: 2px;
       list-style-type: none;
       text-transform: uppercase;
       font-family: 'Roboto Slab', serif;
@@ -563,7 +573,7 @@
 
       .black-box {
           display: flex;
-          flex-direction: row;
+          /* flex-direction: row; */
           color: #ffff;
           align-items: center;
           padding: 10px 0px;
