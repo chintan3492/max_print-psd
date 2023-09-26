@@ -353,6 +353,10 @@
 
   /* PRISM-IMAGE */
   .prism::before {
+      display: none;
+  }
+
+  .mob-prism::before {
       content: "";
       border: 1px solid #999999;
       position: absolute;
@@ -362,12 +366,20 @@
   }
 
   .prism {
+      display: none;
+  }
+
+  .mob-prism {
       text-align: center;
       padding-top: 26px;
       position: relative;
   }
 
   .prism::after {
+      display: none;
+  }
+
+  .mob-prism::after {
       content: "";
       border: 1px solid #999999;
       position: absolute;
@@ -882,12 +894,22 @@
           width: 66px;
           left: 42%;
           top: 36px;
+          display: block;
+      }
+
+      .mob-prism::before {
+          display: none;
       }
 
       .prism {
           text-align: center;
           padding-top: 26px;
           position: relative;
+          display: block;
+      }
+
+      .mob-prism {
+          display: none;
       }
 
       .prism::after {
@@ -897,6 +919,11 @@
           width: 66px;
           top: 36px;
           right: 42%;
+          display: block;
+      }
+
+      .mob-prism::after {
+          display: none;
       }
 
       .main-cards {
